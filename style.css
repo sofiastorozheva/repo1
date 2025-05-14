@@ -1,0 +1,117 @@
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.logo{
+    display: flex;
+}
+.logo > h1{
+    font-family: "Just Another Hand", sans-serif;
+    color: black;
+    font-size: 128px;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+    column-gap: 31px;
+}
+nav a{
+    font-family: 'Martian Moro', sans-serif;
+    color: black;
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 400;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+main > h3{
+    font-family: 'Martian Moro', sans-serif;
+    color: black;
+    font-size: 48px;
+    font-weight: 400;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.items{
+    display: flex;
+    padding-top: 15px;
+}
+.text{
+    color: black;
+    font-family: 'Martian Moro', sans-serif;
+}
+.text > h2{
+    font-size: 48px;
+}
+.text > h6{
+    color: #646464;
+    font-size: 12px;
+}
+.text > p{
+    color: black;
+    font-family: 'Martian Moro', sans-serif;
+    font-size: 16px;
+    max-width: 460px;
+    padding-top: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+.buttons > button{
+    background: #FCBA03;
+    border: 1px solid #FCBA03;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 52px;
+    font-weight: 400;
+    font-family: 'Martian Moro', sans-serif;
+    width: 400px;
+    height: 200px;
+}
+.buttons > button:hover {
+    background: #FFCF48;
+    border: 1px solid #FFCF48;
+    transform: translateY(-0.1em);
+}
+.line{
+    margin: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    gap: 50px;
+}
+footer > img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+footer > p{
+    font-family: 'Martian Moro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    flex: 1;
+}
+
+
